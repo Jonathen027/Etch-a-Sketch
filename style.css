@@ -1,9 +1,48 @@
-.container{
-    border: solid black;
-    width: 750px;
-    height: 750px;
-}
-
-.box{
-    border: solid
-}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    background-color: grey;
+    }
+    
+    h1{
+        padding: 10px;
+        margin: 20px;
+        font-size: 25px;
+        background-color: brown;
+        color: white;
+        border: solid darkgrey;
+    }
+    
+    .layout{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .btn-layout{
+        margin-top: 50px;
+        background-color: darkgrey;
+        border: solid black;
+    }
+    .btn-layout > button {
+        padding: 10px;
+        margin: 20px;
+        background-color: brown;
+        border: none;
+        border-radius: 5%;
+        font-weight: 600;
+        color: white;
+    }
+    .container{
+        border: solid black; 
+        width: 750px;
+        height: 750px;
+    }
+    
+    .box{
+        background-color: darkgray;
+        border: solid black 1px; 
+    }
